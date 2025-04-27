@@ -13,7 +13,6 @@ import InfoPage from './modules/info/components/InfoPage';
 import ProgramsList from './modules/programs/components/ProgramsList';
 import ProgramCreation from './modules/programs/components/ProgramCreation';
 import ProgramExecution from './modules/programs/components/ProgramExecution';
-import ZaptBadge from './modules/core/components/ZaptBadge';
 
 function App() {
   return (
@@ -36,7 +35,6 @@ function App() {
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </Layout>
-          <ZaptBadge />
         </div>
       </AppProvider>
     </Router>
